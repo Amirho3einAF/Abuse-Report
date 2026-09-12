@@ -1,3 +1,6 @@
+این یک قالب حرفه‌ای، استاندارد و متناسب با فضای Blue Team برای فایل `README.md` شماست. کافیست متن زیر را کپی کرده و در فایل خود جایگذاری کنید (بخش‌های مربوط به لینک گیت‌هاب و تصویر را با اطلاعات خودتان جایگزین کنید):
+
+```markdown
 <div align="center">
   <h1>🛡️ SOC IP Threat Analyzer & Abuse Reporter</h1>
   <p><i>A lightweight, API-free CLI tool for Blue Team analysts to automate Threat Intelligence and Abuse Reporting.</i></p>
@@ -27,3 +30,46 @@ Instead of jumping between multiple browser tabs, this tool instantly pulls ASN 
 ```bash
 git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
 cd YOUR-REPO-NAME
+
+```
+
+2. Install the required Python dependencies:
+
+```bash
+pip install requests rich
+
+```
+
+## 💻 Usage
+
+Launch the tool using Python. The program will prompt you to enter a target IP address.
+
+```bash
+python report_tool.py
+
+```
+
+**Example Output Flow:**
+
+```text
+=== SOC IP Abuse Report Tool ===
+Enter Target IP: 8.8.8.8
+[*] Analyzing Target IP: 8.8.8.8...
+...
+
+```
+
+*(Type `exit`, `quit`, or `q` to safely close the interactive session).*
+
+## 📸 Terminal Preview
+
+*(📌 Note: Upload a screenshot of your terminal running the code and replace this image link!)*
+
+
+## 🛠️ Under the Hood
+
+* **Language:** Python 3
+* **UI Formatting:** [Rich Library](https://rich.readthedocs.io/en/stable/)
+* **Threat Intel Sources:** `ipinfo.io`, `rdap.org`, `DNSBL (socket)`
+
+---
