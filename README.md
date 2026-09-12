@@ -1,6 +1,3 @@
-این یک قالب حرفه‌ای، استاندارد و متناسب با فضای Blue Team برای فایل `README.md` شماست. کافیست متن زیر را کپی کرده و در فایل خود جایگذاری کنید (بخش‌های مربوط به لینک گیت‌هاب و تصویر را با اطلاعات خودتان جایگزین کنید):
-
-```markdown
 <div align="center">
   <h1>🛡️ SOC IP Threat Analyzer & Abuse Reporter</h1>
   <p><i>A lightweight, API-free CLI tool for Blue Team analysts to automate Threat Intelligence and Abuse Reporting.</i></p>
@@ -30,8 +27,6 @@ Instead of jumping between multiple browser tabs, this tool instantly pulls ASN 
 ```bash
 git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
 cd YOUR-REPO-NAME
-
-```
 
 2. Install the required Python dependencies:
 
